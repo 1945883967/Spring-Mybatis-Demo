@@ -1,0 +1,35 @@
+package com.minghai.mybatis.sqlsession.defaults;
+
+import com.minghai.mybatis.cfg.Configuration;
+import com.minghai.mybatis.sqlsession.SqlSession;
+import com.minghai.mybatis.sqlsession.proxy.MapperProxy;
+
+import java.lang.reflect.Proxy;
+
+/**
+ * SqlSession的实现类
+ */
+public class DefaultSqlSession implements SqlSession {
+    private Configuration cfg;
+    public  DefaultSqlSession(Configuration cfg){
+        this.cfg = cfg;
+    }
+    /**
+     * 用于创建代理对象
+     * @param daoInterfaceClass dao接口字节码
+     * @param <T>
+     * @return
+     */
+    public <T> T getMapper(Class<T> daoInterfaceClass) {
+        Proxy.newProxyInstance(daoInterfaceClass.getClassLoader(),
+                new Class[]{daoInterfaceClass},new MapperProxy(cfg.getMappers()));
+        return null;
+    }
+
+    /**
+     * 用于释放资源
+     */
+    public void close() {
+
+    }
+}
