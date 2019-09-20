@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE configuration
-        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
-        "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <!--mybatis的主配置文件-->
 <configuration>
     <!--配置环境-->
@@ -23,6 +20,9 @@
 
     <!-- 指定映射文件的位置，映射文件指的是每个dao独立地配置文件-->
     <mappers>
-        <mapper resource="com/minghai/dao/IUserDao.xml" ></mapper>
+        <!--使用xml方式-->
+        <!--<mapper resource="com/minghai/dao/IUserDao.xml" ></mapper>-->
+        <!--使用注解方式-->
+        <mapper class="com.minghai.dao.IUserDao" ></mapper>
     </mappers>
 </configuration>

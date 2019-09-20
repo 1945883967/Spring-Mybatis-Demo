@@ -1,6 +1,7 @@
 package com.minghai.dao;
 
 import com.minghai.domain.User;
+import com.minghai.mybatis.annotations.Select;
 
 import java.util.List;
 
@@ -12,5 +13,6 @@ public interface IUserDao {
      * 查询所有操作
      * @return
      */
+    @Select("select * from user")
     List<User> findAll();
 }
