@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e76e596-7677-4b10-b663-00749050694c" name="Default" comment="" />
+    <list default="true" id="70357147-f51b-4af6-9d3f-dfeb1f164a83" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,12 +12,53 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/minghai/domain/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#389#390#0" expanded="true" />
+                <element signature="e#437#438#0" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
+                <element signature="e#541#542#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+                <element signature="e#625#626#0" expanded="true" />
+                <element signature="e#655#656#0" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
+                <element signature="e#719#720#0" expanded="true" />
+                <element signature="e#749#750#0" expanded="true" />
+                <element signature="e#782#783#0" expanded="true" />
+                <element signature="e#813#814#0" expanded="true" />
+                <element signature="e#859#860#0" expanded="true" />
+                <element signature="e#899#900#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="IUserDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/minghai/dao/IUserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1102">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="303">
+              <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -25,48 +66,62 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QueryVo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/minghai/domain/QueryVo.java">
+      <file leaf-file-name="MybatisAnnoTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/minghai/test/MybatisAnnoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+            <state relative-caret-position="324">
+              <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
               <folding>
-                <element signature="e#129#130#0" expanded="true" />
-                <element signature="e#167#168#0" expanded="true" />
-                <element signature="e#199#200#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnnotationCRUDTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/minghai/test/AnnotationCRUDTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="79" column="61" selection-start-line="79" selection-start-column="61" selection-end-line="79" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1662#1663#0" expanded="true" />
+                <element signature="e#1684#1685#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="IUserDao.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/minghai/dao/IUserDao.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/IUserDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="41" column="3" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="43" selection-end-column="13" />
+            <state relative-caret-position="171">
+              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SqlMapConfig.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SqlMapConfig.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="247">
+              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MybatisTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/minghai/test/MybatisTest.java">
+      <file leaf-file-name="jdbcConfig.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/jdbcConfig.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="126" column="20" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="19">
+              <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -74,8 +129,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -84,13 +137,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/minghai/domain/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/minghai/domain/QueryVo.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/minghai/test/MybatisTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/minghai/dao/IUserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbcConfig.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/MybatisAnnoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/minghai/test/MybatisAnnoTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/minghai/dao/IUserDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/minghai/dao/IUserDao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/minghai/test/AnnotationCRUDTest.java" />
       </list>
     </option>
   </component>
@@ -105,7 +159,7 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="day02_eesy_01mybatisCRUD" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="day04_eesy_03annotation_mybatis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
@@ -114,7 +168,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="370" />
     <option name="y" value="170" />
     <option name="width" value="1400" />
@@ -126,44 +180,43 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="day02_eesy_01mybatisCRUD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day02_eesy_01mybatisCRUD" type="462c0819:PsiDirectoryNode" />
+              <item name="day04_eesy_03annotation_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day04_eesy_03annotation_mybatis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="day02_eesy_01mybatisCRUD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day02_eesy_01mybatisCRUD" type="462c0819:PsiDirectoryNode" />
+              <item name="day04_eesy_03annotation_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day04_eesy_03annotation_mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="day02_eesy_01mybatisCRUD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day02_eesy_01mybatisCRUD" type="462c0819:PsiDirectoryNode" />
+              <item name="day04_eesy_03annotation_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day04_eesy_03annotation_mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="day02_eesy_01mybatisCRUD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day02_eesy_01mybatisCRUD" type="462c0819:PsiDirectoryNode" />
+              <item name="day04_eesy_03annotation_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day04_eesy_03annotation_mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="day02_eesy_01mybatisCRUD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day02_eesy_01mybatisCRUD" type="462c0819:PsiDirectoryNode" />
+              <item name="day04_eesy_03annotation_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day04_eesy_03annotation_mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="day02_eesy_01mybatisCRUD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day02_eesy_01mybatisCRUD" type="462c0819:PsiDirectoryNode" />
+              <item name="day04_eesy_03annotation_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day04_eesy_03annotation_mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -171,8 +224,8 @@
               <item name="minghai" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="day02_eesy_01mybatisCRUD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day02_eesy_01mybatisCRUD" type="462c0819:PsiDirectoryNode" />
+              <item name="day04_eesy_03annotation_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day04_eesy_03annotation_mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -181,8 +234,8 @@
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="day02_eesy_01mybatisCRUD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day02_eesy_01mybatisCRUD" type="462c0819:PsiDirectoryNode" />
+              <item name="day04_eesy_03annotation_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day04_eesy_03annotation_mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -191,63 +244,53 @@
               <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="day02_eesy_01mybatisCRUD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day02_eesy_01mybatisCRUD" type="462c0819:PsiDirectoryNode" />
+              <item name="day04_eesy_03annotation_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day04_eesy_03annotation_mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="day02_eesy_01mybatisCRUD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day02_eesy_01mybatisCRUD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day02_eesy_01mybatisCRUD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day02_eesy_01mybatisCRUD" type="462c0819:PsiDirectoryNode" />
+              <item name="day04_eesy_03annotation_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day04_eesy_03annotation_mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="minghai" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="day02_eesy_01mybatisCRUD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day02_eesy_01mybatisCRUD" type="462c0819:PsiDirectoryNode" />
+              <item name="day04_eesy_03annotation_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day04_eesy_03annotation_mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="minghai" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="day02_eesy_01mybatisCRUD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day02_eesy_01mybatisCRUD" type="462c0819:PsiDirectoryNode" />
+              <item name="day04_eesy_03annotation_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day04_eesy_03annotation_mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="day02_eesy_01mybatisCRUD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day02_eesy_01mybatisCRUD" type="462c0819:PsiDirectoryNode" />
+              <item name="day04_eesy_03annotation_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day04_eesy_03annotation_mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="day02_eesy_01mybatisCRUD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day02_eesy_01mybatisCRUD" type="462c0819:PsiDirectoryNode" />
+              <item name="day04_eesy_03annotation_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day04_eesy_03annotation_mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="day02_eesy_01mybatisCRUD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day02_eesy_01mybatisCRUD" type="462c0819:PsiDirectoryNode" />
+              <item name="day04_eesy_03annotation_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day04_eesy_03annotation_mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -255,8 +298,8 @@
               <item name="minghai" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="day02_eesy_01mybatisCRUD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day02_eesy_01mybatisCRUD" type="462c0819:PsiDirectoryNode" />
+              <item name="day04_eesy_03annotation_mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day04_eesy_03annotation_mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -268,10 +311,10 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Consumer&#9;PSI&#9;JAVA://java.util.function.Consumer" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -281,8 +324,12 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\code\IntelliJ IDEA\heima\Mybatis\day04_eesy_03annotation_mybatis\src\main\resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\code\IntelliJ IDEA\heima\Mybatis\day02_eesy_01mybatisCRUD\src\main\resources" />
+      <recent name="H:\code\IntelliJ IDEA\heima\Mybatis\day04_eesy_03annotation_mybatis\src\main\resources\com\minghai\dao" />
+      <recent name="H:\code\IntelliJ IDEA\heima\Mybatis\day04_eesy_03annotation_mybatis\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -297,12 +344,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest.testFindByQueryVo">
+  <component name="RunManager" selected="JUnit.AnnotationCRUDTest.testfindByName1">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="MybatisTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="day02_eesy_01mybatisCRUD" />
+    <configuration name="AnnotationCRUDTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day04_eesy_03annotation_mybatis" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.minghai.test.*" />
@@ -312,8 +359,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.minghai.test" />
-      <option name="MAIN_CLASS_NAME" value="com.minghai.test.MybatisTest" />
-      <option name="METHOD_NAME" value="findAll" />
+      <option name="MAIN_CLASS_NAME" value="com.minghai.test.AnnotationCRUDTest" />
+      <option name="METHOD_NAME" value="testDelete" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -324,8 +371,8 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MybatisTest.testFindByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="day02_eesy_01mybatisCRUD" />
+    <configuration name="AnnotationCRUDTest.testSelectOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day04_eesy_03annotation_mybatis" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.minghai.test.*" />
@@ -335,8 +382,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.minghai.test" />
-      <option name="MAIN_CLASS_NAME" value="com.minghai.test.MybatisTest" />
-      <option name="METHOD_NAME" value="testFindByName" />
+      <option name="MAIN_CLASS_NAME" value="com.minghai.test.AnnotationCRUDTest" />
+      <option name="METHOD_NAME" value="testSelectOne" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -347,8 +394,8 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MybatisTest.testFindByQueryVo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="day02_eesy_01mybatisCRUD" />
+    <configuration name="AnnotationCRUDTest.testSelectTotal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day04_eesy_03annotation_mybatis" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.minghai.test.*" />
@@ -358,8 +405,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.minghai.test" />
-      <option name="MAIN_CLASS_NAME" value="com.minghai.test.MybatisTest" />
-      <option name="METHOD_NAME" value="testFindByQueryVo" />
+      <option name="MAIN_CLASS_NAME" value="com.minghai.test.AnnotationCRUDTest" />
+      <option name="METHOD_NAME" value="testSelectTotal" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -370,8 +417,8 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MybatisTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="day02_eesy_01mybatisCRUD" />
+    <configuration name="AnnotationCRUDTest.testfindByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day04_eesy_03annotation_mybatis" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.minghai.test.*" />
@@ -381,8 +428,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.minghai.test" />
-      <option name="MAIN_CLASS_NAME" value="com.minghai.test.MybatisTest" />
-      <option name="METHOD_NAME" value="testSave" />
+      <option name="MAIN_CLASS_NAME" value="com.minghai.test.AnnotationCRUDTest" />
+      <option name="METHOD_NAME" value="testfindByName" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -393,8 +440,8 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MybatisTest.testfindCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="day02_eesy_01mybatisCRUD" />
+    <configuration name="AnnotationCRUDTest.testfindByName1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day04_eesy_03annotation_mybatis" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.minghai.test.*" />
@@ -404,8 +451,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.minghai.test" />
-      <option name="MAIN_CLASS_NAME" value="com.minghai.test.MybatisTest" />
-      <option name="METHOD_NAME" value="testfindCount" />
+      <option name="MAIN_CLASS_NAME" value="com.minghai.test.AnnotationCRUDTest" />
+      <option name="METHOD_NAME" value="testfindByName1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -455,19 +502,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.MybatisTest.testFindByName" />
-      <item itemvalue="JUnit.MybatisTest.findAll" />
-      <item itemvalue="JUnit.MybatisTest.testfindCount" />
-      <item itemvalue="JUnit.MybatisTest.testSave" />
-      <item itemvalue="JUnit.MybatisTest.testFindByQueryVo" />
+      <item itemvalue="JUnit.AnnotationCRUDTest.testDelete" />
+      <item itemvalue="JUnit.AnnotationCRUDTest.testSelectOne" />
+      <item itemvalue="JUnit.AnnotationCRUDTest.testfindByName" />
+      <item itemvalue="JUnit.AnnotationCRUDTest.testfindByName1" />
+      <item itemvalue="JUnit.AnnotationCRUDTest.testSelectTotal" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MybatisTest.testFindByQueryVo" />
-        <item itemvalue="JUnit.MybatisTest.testSave" />
-        <item itemvalue="JUnit.MybatisTest.testFindByName" />
-        <item itemvalue="JUnit.MybatisTest.testfindCount" />
-        <item itemvalue="JUnit.MybatisTest.findAll" />
+        <item itemvalue="JUnit.AnnotationCRUDTest.testfindByName1" />
+        <item itemvalue="JUnit.AnnotationCRUDTest.testSelectTotal" />
+        <item itemvalue="JUnit.AnnotationCRUDTest.testfindByName" />
+        <item itemvalue="JUnit.AnnotationCRUDTest.testSelectOne" />
+        <item itemvalue="JUnit.AnnotationCRUDTest.testDelete" />
       </list>
     </recent_temporary>
   </component>
@@ -476,82 +523,82 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5e76e596-7677-4b10-b663-00749050694c" name="Default" comment="" />
-      <created>1569029084396</created>
+      <changelist id="70357147-f51b-4af6-9d3f-dfeb1f164a83" name="Default" comment="" />
+      <created>1569135005369</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1569029084396</updated>
-      <workItem from="1569029090424" duration="7292000" />
-      <workItem from="1569146362254" duration="751000" />
+      <updated>1569135005369</updated>
+      <workItem from="1569135007497" duration="4981000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MybatisTest_testFindByName - 2019.09.21 at 10h 58m 27s.xml">
-      <configuration name="MybatisTest.testFindByName" configurationId="JUnit" />
+    <history-entry file="AnnotationCRUDTest_testUpdate - 2019.09.22 at 16h 42m 31s.xml">
+      <configuration name="AnnotationCRUDTest.testUpdate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_testFindByName - 2019.09.21 at 11h 00m 27s.xml">
-      <configuration name="MybatisTest.testFindByName" configurationId="JUnit" />
+    <history-entry file="AnnotationCRUDTest_testDelete - 2019.09.22 at 16h 44m 14s.xml">
+      <configuration name="AnnotationCRUDTest.testDelete" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_testFindByName - 2019.09.21 at 11h 01m 24s.xml">
-      <configuration name="MybatisTest.testFindByName" configurationId="JUnit" />
+    <history-entry file="AnnotationCRUDTest_testSelectOne - 2019.09.22 at 16h 45m 58s.xml">
+      <configuration name="AnnotationCRUDTest.testSelectOne" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_testFindByName - 2019.09.21 at 11h 02m 27s.xml">
-      <configuration name="MybatisTest.testFindByName" configurationId="JUnit" />
+    <history-entry file="AnnotationCRUDTest_testfindByName - 2019.09.22 at 16h 49m 02s.xml">
+      <configuration name="AnnotationCRUDTest.testfindByName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_testFindByName - 2019.09.21 at 11h 03m 00s.xml">
-      <configuration name="MybatisTest.testFindByName" configurationId="JUnit" />
+    <history-entry file="AnnotationCRUDTest_testfindByName - 2019.09.22 at 16h 50m 32s.xml">
+      <configuration name="AnnotationCRUDTest.testfindByName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_testSave - 2019.09.21 at 11h 09m 58s.xml">
-      <configuration name="MybatisTest.testSave" configurationId="JUnit" />
+    <history-entry file="AnnotationCRUDTest_testfindByName1 - 2019.09.22 at 16h 51m 54s.xml">
+      <configuration name="AnnotationCRUDTest.testfindByName1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_testSave - 2019.09.21 at 11h 10m 54s.xml">
-      <configuration name="MybatisTest.testSave" configurationId="JUnit" />
+    <history-entry file="AnnotationCRUDTest_testSelectTotal - 2019.09.22 at 16h 53m 29s.xml">
+      <configuration name="AnnotationCRUDTest.testSelectTotal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_testSave - 2019.09.21 at 11h 11m 47s.xml">
-      <configuration name="MybatisTest.testSave" configurationId="JUnit" />
+    <history-entry file="AnnotationCRUDTest_testfindByName1 - 2019.09.22 at 16h 56m 16s.xml">
+      <configuration name="AnnotationCRUDTest.testfindByName1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_testFindByQueryVo - 2019.09.21 at 11h 21m 17s.xml">
-      <configuration name="MybatisTest.testFindByQueryVo" configurationId="JUnit" />
+    <history-entry file="AnnotationCRUDTest_testfindByName1 - 2019.09.22 at 16h 57m 13s.xml">
+      <configuration name="AnnotationCRUDTest.testfindByName1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_testFindByQueryVo - 2019.09.21 at 11h 21m 59s.xml">
-      <configuration name="MybatisTest.testFindByQueryVo" configurationId="JUnit" />
+    <history-entry file="AnnotationCRUDTest_testfindByName1 - 2019.09.22 at 16h 57m 25s.xml">
+      <configuration name="AnnotationCRUDTest.testfindByName1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8043000" />
+    <option name="totallyTimeSpent" value="4981000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297587" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.82853025" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17091152" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Messages" weight="0.5057637" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" weight="0.2386059" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36599424" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1930295" />
+      <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="UI Designer" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3299712" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -561,48 +608,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/minghai/dao/IUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/minghai/domain/QueryVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/minghai/dao/IUserDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/minghai/test/MybatisTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2128">
-          <caret line="126" column="20" lean-forward="true" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
@@ -610,92 +615,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/After.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="192" column="16" selection-start-line="192" selection-start-column="16" selection-end-line="192" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/session/SqlSessionManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="237" column="24" lean-forward="true" selection-start-line="237" selection-start-column="24" selection-end-line="237" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/session/SqlSession.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/minghai/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/minghai/domain/QueryVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        <state relative-caret-position="247">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbcConfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/IUserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/minghai/test/MybatisAnnoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/minghai/dao/IUserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="303">
+          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/minghai/test/MybatisTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/minghai/test/AnnotationCRUDTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="126" column="20" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="20" />
+        <state relative-caret-position="280">
+          <caret line="79" column="61" selection-start-line="79" selection-start-column="61" selection-end-line="79" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1662#1663#0" expanded="true" />
+            <element signature="e#1684#1685#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/minghai/dao/IUserDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="41" column="3" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="43" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -751,7 +753,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>day02_eesy_01mybatisCRUD</last-edited>
+          <last-edited>day04_eesy_03annotation_mybatis</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
