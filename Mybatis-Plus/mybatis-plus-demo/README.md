@@ -44,7 +44,18 @@
                FROM user 
                WHERE name LIKE CONCAT('%',?,'%') AND age<? 
       Parameters: 雨(String), 40(Integer)
-     */
+      */
       ```
 **注意**：构造器中传入的，与用方法加的条件互补影响，两个会同时存在。（不建议同时使用）
+
+## QueryWrapper 的方法
++ **allEq**
+
+## BaseMapper 中的方法
++ selectMaps
++ selectObjs  只返回一列
++ selectCount 返回总记录数
++ selectOne   查询一条记录  （注：查询的时候可以没有记录，有多条时会报错）
+
+
 

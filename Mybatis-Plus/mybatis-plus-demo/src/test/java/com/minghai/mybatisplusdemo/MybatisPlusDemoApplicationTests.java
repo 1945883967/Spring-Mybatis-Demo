@@ -14,10 +14,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.time.LocalDateTime;
-import java.util.Arrays;
-import java.util.Hashtable;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -236,7 +233,7 @@ public class MybatisPlusDemoApplicationTests {
         userList.forEach(System.out::println);
     }
     /**
-     * 2、名字中包含雨并且年龄小于40, 查除了创建时间和邮箱
+     * 2、名字中包含雨并且年龄小于40, 查除了创建时间和邮箱      ===== 看下一个方法
      * name like '%雨%' and age < 40
      */
     @Test
@@ -252,12 +249,51 @@ public class MybatisPlusDemoApplicationTests {
 
 
     /**
+     * 返回Maps  可以用于，查询特定的列
+     */
+    @Test
+    public void selectByWrapperMaps() {
+      QueryWrapper<User> queryWrapper = new QueryWrapper<>();
+      queryWrapper.select("name","age");
+        List<Map<String, Object>> maps = userMapper.selectMaps(queryWrapper);
+        /* Sql
+        Preparing: SELECT name,age FROM user
+         */
+        maps.forEach(System.out::println);
+
+    }
+
+    /**
+     * 11、按照直属上级分组，查询每组的平均年龄、最大年龄、最小年龄
+     * 并且只取年龄总和小于500的组
+     * select avg(avg) avg_age,min(age) min_age,max(age) max_age
+     * from user
+     * group by manager_id
+     * having sum(age) < 500
+     *
+     */
+    @Test
+    public void selectByWrapperMaps2(){
+        QueryWrapper<User> queryWrapper = new QueryWrapper<>();
+
+        queryWrapper.select("avg(age) avg_age","min(age) min_age","max(age) max_age")
+                .groupBy("manager_id").having("sum(age)<{0}",500);
+        List<Map<String, Object>> list = userMapper.selectMaps(queryWrapper);
+          /*
+         Preparing: SELECT avg(age) avg_age,min(age) min_age,max(age) max_age
+                    FROM user
+                    GROUP BY manager_id
+                    HAVING sum(age)<?
+         */
+        list.forEach(System.out::println);
+    }
+    /**
      *  Condition
      */
     @Test
     public void testCondition(){
         QueryWrapper<User> queryWrapper = new QueryWrapper<>();
-       queryWrapper.last(false,"1 !=1 ");
+        queryWrapper.last(false,"1 !=1 ");
         List<User> userList = userMapper.selectList(queryWrapper);
 
         userList.forEach(System.out::println);
@@ -293,5 +329,37 @@ public class MybatisPlusDemoApplicationTests {
          */
         userList.forEach(System.out::println);
     }
+
+    @Test
+    public void testAllEq(){
+        QueryWrapper<User> queryWrapper = new QueryWrapper<>();
+
+        Map<String,Object> params = new HashMap<>();
+        params.put("name","老王");
+        params.put("age",null);
+        queryWrapper.allEq(params);
+        List<User> userList = userMapper.selectList(queryWrapper);
+        /*
+        Preparing: SELECT id,name AS realName,create_time,manager_id,email,age FROM user WHERE (name = ? AND age IS NULL)
+         */
+        userList.forEach(System.out::println);
+    }
+    @Test
+    public void testAllEq2(){
+        QueryWrapper<User> queryWrapper = new QueryWrapper<>();
+
+        Map<String,Object> params = new HashMap<>();
+        params.put("name","老王");
+        params.put("age",null);
+        queryWrapper.allEq(params,false);
+        List<User> userList = userMapper.selectList(queryWrapper);
+        /*
+        Preparing: SELECT id,name AS realName,create_time,manager_id,email,age FROM user WHERE (name = ?)
+         */
+        userList.forEach(System.out::println);
+    }
+
+
+
 
 }
